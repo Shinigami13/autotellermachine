@@ -1,0 +1,57 @@
+
+html{
+font family:
+width: auto;
+margin: auto;
+}
+
+.screen-grid{
+display: grid;
+grid-template-rows:400px;
+grid-template-colums: 400px;
+}
+
+div1 {
+    width: 300px;
+    border: 25px solid red;
+    padding: 25px;
+    margin: 25px;
+}
+
+div2 {
+    width: 300px;
+    border: 25px solid blue;
+    padding: 25px;
+    margin: 25px;
+}
+
+/* screen-grid{
+  background-color: red;
+  width: 300px
+  height: auto;
+  border: 2px solid red;
+
+} */
+
+.screen-grid div:nth-child(1){
+background-color: blue;
+width: auto;
+}
+.screen-grid div:nth-child(2){
+background-color: red;
+width: auto;
+}
+
+
+.container{
+  margin: 0 auto;
+}
+
+
+.responsive{
+  width: 100%;
+}
+
+.image-container{
+
+}
